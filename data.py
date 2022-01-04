@@ -12,7 +12,8 @@ data = response.json()
 # print("Successfully downloaded data")
 
 question_data = data["results"]
-#
+
+# legacy code
 # question_data = [
 #     {
 #         "category": "Science: Computers",
