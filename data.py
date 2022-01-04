@@ -9,6 +9,7 @@ parameters = {
 response = requests.get(url="https://opentdb.com/api.php", params=parameters)
 response.raise_for_status()
 data = response.json()
+# print("Successfully downloaded data")
 
 question_data = data["results"]
 #
